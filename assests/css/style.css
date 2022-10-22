@@ -119,6 +119,7 @@ header end
     background-color: #215E5C;
     position: relative;
     margin-bottom: -160px;
+    overflow-x: hidden;
 }
 /* ----------------------------------------------
 banner  start
@@ -170,6 +171,7 @@ about start
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-bottom: 225px;
+    overflow-x: hidden;
 }
 .about .about-inner{}
 .about .about-inner .item-top{}
@@ -264,6 +266,7 @@ design-process start
     background-position: bottom center;
     padding-bottom: 221px;
     padding-top: 103px;
+    overflow-x: hidden;
 }
 .design-process .design-top{
     padding-bottom: 48px;
@@ -305,6 +308,7 @@ Empathize start
 ---------------------------------------------- */
 .Empathize {
     padding-top: 80px;
+    overflow-x: hidden;
 }
 .Empathize .Empathize-top{}
 .Empathize .Empathize-top h2{
@@ -351,6 +355,7 @@ Define start
     background-position: top center;
     padding-top: 180px;
     padding-bottom: 83px;
+    overflow-x: hidden;
 }
 .Define .Define-top{
     padding-bottom: 101px;
@@ -433,6 +438,7 @@ start
     background-position: bottom center;
     padding-top: 159px;
     padding-bottom: 450px;
+    overflow-x: hidden;
 }
 .prototypes .box1{
     max-width: 1350px;
@@ -509,7 +515,9 @@ end
 /* ----------------------------------------------
 Testing start
 ---------------------------------------------- */
-.Testing {}
+.Testing {
+    overflow-x: hidden;
+}
 .Testing .testing-top{
     padding-bottom: 120px;
 }
@@ -590,6 +598,7 @@ Testing end
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    overflow-x: hidden;
 }
 /* ----------------------------------------------
                 wrapper-bg end
@@ -704,6 +713,7 @@ color: #215E5C;
 .you-can-find {
     padding-bottom: 111px;
     padding-top: 145px;
+    overflow-x: hidden;
 }
 .you-can-find h2{}
 .you-can-find h2 a{
