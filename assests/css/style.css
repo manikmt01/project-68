@@ -601,8 +601,21 @@ margin-bottom: 0;
 /* ----------------------------------------------
                     Testing end
 ---------------------------------------------- */
+.loader {
+    position: relative;
 
+}
+.loader::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    z-index: 99;
 
+}
 /* ----------------------------------------------
                      start
 ---------------------------------------------- */
