@@ -23,6 +23,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css">
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- aos animation css -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Custom css -->
         <link rel="stylesheet" href="assests/css/style.css">
         <!-- Responsive midea css -->
@@ -32,7 +34,6 @@
     <body>
         <!-- wrapper start -->
         <div class="wrapper">
-
             <!-- header start -->
             <header>
                 <nav class="navbar navbar-expand p-0">
@@ -63,14 +64,14 @@
             <!-- banner start -->
             <div class="banner">
                 <div class="container">
-                    <div class="box">
+                    <div class="box" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                         <h1>The GMA Art Gallery</h1>
                         <p>Connect with artists, learn about artistic process, and enhance your home with beautiful artworks created by contemporary artists</p>
                     </div>
                     <div class="Created-with">
                         <p>Created with:</p>
-                        <span class="loader">
-                        <img src="assests/images/icon.svg" alt="img" class="img-fluid">
+                        <span class="loader" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
+                            <img src="assests/images/icon.svg" alt="img" class="img-fluid">
                         </span>
                     </div>
                 </div>
@@ -87,14 +88,14 @@
                         <div class="about-inner">
                             <div class="item-top">
                                 <div class="row">
-                                    <div class="col-lg-7">
+                                    <div class="col-lg-7" >
                                         <div class="img-item">
                                             <span class="loader">
-                                            <img src="assests/images/phone-mockup-1.png" alt="img" class="img-fluid">
+                                                <img src="assests/images/phone-mockup-1.png" alt="img" class="img-fluid">
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="col-lg-5 align-self-end">
+                                    <div class="col-lg-5 align-self-end" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                                         <div class="item-right">
                                             <div class="item">
                                                 <h4>About GMA</h4>
@@ -112,7 +113,7 @@
                             <div class="item-end">
                                 <div class="row">
                                     <div class="col-lg-6 align-self-center">
-                                        <div class="item-end-left">
+                                        <div class="item-end-left" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                                             <div class="media">
                                                 <span class="d-inline-block">1</span>
                                                 <div class="media-body">
@@ -140,7 +141,7 @@
                                     <div class="col-lg-6 align-self-center">
                                         <div class="img-item">
                                             <span class="loader">
-                                            <img src="assests/images/phone-mockup-2.png" alt="img" class="img-fluid">
+                                                <img src="assests/images/phone-mockup-2.png" alt="img" class="img-fluid">
                                             </span>
                                         </div>
                                     </div>
@@ -153,23 +154,21 @@
             </div>
         </div>
         <!-- about end -->
-
-
         <!-- The Design Process start -->
         <div class="design-process">
             <div class="container">
-                <div class="design-top">
+                <div class="design-top" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                     <h2>The Design Process</h2>
                 </div>
                 <div class="design-process-inner">
                     <!-- row start -->
                     <div class="row">
                         <!-- single item start -->
-                        <div class="col-lg">
+                        <div class="col-lg" >
                             <div class="item">
                                 <h4>Empathize</h4>
                                 <span class="loader">
-                                <img src="assests/images/01.png" alt="img" class="img-fluid">
+                                    <img src="assests/images/01.png" alt="img" class="img-fluid">
                                 </span>
                                 <p>Interviews <br> Personas <br> User Journey Maps</p>
                             </div>
@@ -180,7 +179,7 @@
                             <div class="item">
                                 <h4>Define</h4>
                                 <span class="loader">
-                                <img src="assests/images/02.png" alt="img" class="img-fluid">
+                                    <img src="assests/images/02.png" alt="img" class="img-fluid">
                                 </span>
                                 <p>Pain Points <br> Problem Statements</p>
                             </div>
@@ -191,7 +190,7 @@
                             <div class="item">
                                 <h4>Ideate</h4>
                                 <span class="loader">
-                                <img src="assests/images/03.png" alt="img" class="img-fluid">
+                                    <img src="assests/images/03.png" alt="img" class="img-fluid">
                                 </span>
                                 <p>Ideate Solutions <br> Competitive audit <br> Storyboards</p>
                             </div>
@@ -202,7 +201,7 @@
                             <div class="item">
                                 <h4>Prototype</h4>
                                 <span class="loader">
-                                <img src="assests/images/04.png" alt="img" class="img-fluid">
+                                    <img src="assests/images/04.png" alt="img" class="img-fluid">
                                 </span>
                                 <p>Paper wireframes <br> Digital wireframes <br> on Figma <br> Low-fi and hi-fi <br> prototype</p>
                             </div>
@@ -213,46 +212,43 @@
                             <div class="item">
                                 <h4>Test</h4>
                                 <span class="loader">
-                                <img src="assests/images/05.png" alt="img" class="img-fluid">
+                                    <img src="assests/images/05.png" alt="img" class="img-fluid">
                                 </span>
                                 <p>Testing prototypes <br> Analysis and Synthesis <br> of Findings <br> Affinity Diagram <br> Insights <br>Design improvements</p>
                             </div>
                         </div>
                         <!-- single item end -->
-
                     </div>
                     <!-- row end -->
                 </div>
             </div>
         </div>
         <!-- The Design Process end -->
-
-
         <!-- Empathize start -->
         <div class="Empathize">
             <div class="container">
-                <div class="Empathize-top">
+                <div class="Empathize-top" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                     <h2>Empathize</h2>
                 </div>
-                <div class="item">
-                    <div class="media">
+                <div class="item" >
+                    <div class="media" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                         <span class="loader">
-                        <img src="assests/images/bar.png" alt="img" class="img-fluid  align-self-center">
+                            <img src="assests/images/bar.png" alt="img" class="img-fluid  align-self-center">
                         </span>
-                        <div class="media-body align-self-center">
+                        <div class="media-body align-self-center" >
                             <h4>Persona</h4>
                         </div>
                     </div>
                     <div class="img-inner">
                         <span class="loader">
-                        <img src="assests/images/img1.png" alt="img" class="img-fluid">
+                            <img src="assests/images/img1.png" alt="img" class="img-fluid">
                         </span>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="media  mb-0">
+                    <div class="media  mb-0" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                         <span class="loader">
-                        <img src="assests/images/bar.png" alt="img" class="img-fluid  align-self-center">
+                            <img src="assests/images/bar.png" alt="img" class="img-fluid  align-self-center">
                         </span>
                         <div class="media-body align-self-center">
                             <h4>User Journey Map</h4>
@@ -260,31 +256,28 @@
                     </div>
                     <div class="img-inner">
                         <span class="loader">
-                        <img src="assests/images/img2.png" alt="img" class="img-fluid">
+                            <img src="assests/images/img2.png" alt="img" class="img-fluid">
                         </span>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Empathize end -->
-
-
-
         <!-- Define & Ideate start -->
         <div class="Define">
             <div class="container">
-                <div class="Define-top">
+                <div class="Define-top" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                     <h2>Define & Ideate</h2>
                 </div>
                 <div class="box">
                     <div class="item1">
-                        <h4>Storyboards</h4>
+                        <h4 data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">Storyboards</h4>
                         <span class="loader">
-                        <img src="assests/images/img3.png" alt="img" class="img-fluid">
+                            <img src="assests/images/img3.png" alt="img" class="img-fluid">
                         </span>
                     </div>
                     <div class="item2">
-                        <h3>Pain Points</h3>
+                        <h3 data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">Pain Points</h3>
                         <div class="media">
                             <span class="d-block">1</span>
                             <div class="media-body">
@@ -314,17 +307,15 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
         <!-- Define & Ideate end -->
-
         <!-- Prototypes created on Figma start -->
         <div class="prototypes">
             <div class="container">
                 <div class="box1">
-                    <div class="prototypes-top">
+                    <div class="prototypes-top" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                         <h2>Prototypes created on Figma</h2>
                     </div>
                     <ul class="d-flex justify-content-between">
@@ -334,23 +325,23 @@
                     </ul>
                     <div class="img-inner">
                         <span class="loader">
-                        <img src="assests/images/phone1.png" alt="img" class="img-fluid img1">
+                            <img src="assests/images/phone1.png" alt="img" class="img-fluid img1">
                         </span>
                         <span class="loader">
-                        <img src="assests/images/phone2.png" alt="img" class="img-fluid img2">
+                            <img src="assests/images/phone2.png" alt="img" class="img-fluid img2">
                         </span>
                         <span class="loader">
-                        <img src="assests/images/phone3.png" alt="img" class="img-fluid img3">
+                            <img src="assests/images/phone3.png" alt="img" class="img-fluid img3">
                         </span>
                         <span class="loader">
-                        <img src="assests/images/phone4.png" alt="img" class="img-fluid img4 d-block m-auto">
+                            <img src="assests/images/phone4.png" alt="img" class="img-fluid img4 d-block m-auto">
                         </span>
                     </div>
                 </div>
                 <div class="box2">
-                    <div class="media">
+                    <div class="media" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                         <span class="loader">
-                        <img src="assests/images/bar.png" alt="img" class="img-fluid  align-self-center">
+                            <img src="assests/images/bar.png" alt="img" class="img-fluid  align-self-center">
                         </span>
                         <div class="media-body align-self-center">
                             <h4>The Main Purchasing and Artist Page Flows</h4>
@@ -358,25 +349,23 @@
                     </div>
                     <div class="img-inner">
                         <span class="loader">
-                        <img src="assests/images/phone-group.png" alt="img" class="img-fluid">
+                            <img src="assests/images/phone-group.png" alt="img" class="img-fluid">
                         </span>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Prototypes created on Figma end -->
-
-
         <!-- Testing start -->
         <div class="Testing">
             <div class="container">
                 <div class="testing-top">
-                    <h4>Testing</h4>
+                    <h4 data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">Testing</h4>
                     <p>After conducting an unmoderated usability study for the Art Gallery App, I was able  to synthesize my findings and create an affinity diagram with all of the participants’  feedback. That affinity diagram allowed me to determine the main pain points in  order to iterate on my low-fidelity prototype design.  </p>
                 </div>
-                <div class="media media2">
+                <div class="media media2" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">
                     <span class="loader">
-                    <img src="assests/images/bar.png" alt="img" class="img-fluid  align-self-center">
+                        <img src="assests/images/bar.png" alt="img" class="img-fluid  align-self-center">
                     </span>
                     <div class="media-body align-self-center">
                         <h4>Study Findings</h4>
@@ -384,19 +373,19 @@
                 </div>
                 <!-- testing innner start -->
                 <div class="testign-inner">
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between g-0">
                         <!-- single item start -->
-                        <div class="col-lg-5">
+                        <div class="col-lg-6 pb-100">
                             <div class="item">
                                 <div class="media">
                                     <span class="d-block">1</span>
-                                    <div class="media-body align-self-center">
+                                    <div class="media-body">
                                         <p>Participants were visually  attracted to bigger images  and videos</p>
                                     </div>
                                 </div>
                                 <div class="inner-img">
                                     <span class="loader">
-                                    <img src="assests/images/1.png" alt="img" class="img-fluid">
+                                        <img src="assests/images/1.png" alt="img" class="img-fluid">
                                     </span>
                                 </div>
                             </div>
@@ -404,95 +393,247 @@
                         <!-- single item  end -->
                         
                         <!-- single item start -->
-                        <div class="col-lg-5">
+                        <div class="col-lg-6 pb-100">
                             <div class="item">
                                 <div class="media">
                                     <span class="d-block">2</span>
-                                    <div class="media-body align-self-center">
+                                    <div class="media-body">
                                         <p>Participants found some  information should be bigger and easier to read</p>
                                     </div>
                                 </div>
                                 <div class="inner-img">
                                     <span class="loader">
-                                    <img src="assests/images/2.png" alt="img" class="img-fluid">
+                                        <img src="assests/images/2.png" alt="img" class="img-fluid">
                                     </span>
                                 </div>
                             </div>
                         </div>
                         <!-- single item  end -->
                         <!-- single item start -->
-                        <div class="col-lg-5">
+                        <div class="col-lg-6 pb-lg-0 pb-100">
                             <div class="item">
                                 <div class="media">
                                     <span class="d-block">3</span>
-                                    <div class="media-body align-self-center">
-                                        <p>Participants found that the 
-                                            hamburger menu catalog 
-                                            should be separate from 
+                                    <div class="media-body">
+                                        <p>Participants found that the
+                                            hamburger menu catalog
+                                            should be separate from
                                         their profile</p>
                                     </div>
                                 </div>
                                 <div class="inner-img">
                                     <span class="loader">
-                                    <img src="assests/images/3.png" alt="img" class="img-fluid">
+                                        <img src="assests/images/3.png" alt="img" class="img-fluid">
                                     </span>
                                 </span>
-                                </div>
                             </div>
                         </div>
-                        <!-- single item  end -->
-                        <!-- single item start -->
-                        <div class="col-lg-5">
-                            <div class="item">
-                                <div class="media">
-                                    <span class="d-block">4</span>
-                                    <div class="media-body align-self-center">
-                                        <p>Participants liked the presentation
-                                            of the artists' information in 
-                                        the app</p>
-                                    </div>
-                                </div>
-                                <div class="inner-img">
-                                  
-                                    <span class="loader">
-                                    <img src="assests/images/4.png" alt="img" class="img-fluid">
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single item  end -->
                     </div>
+                    <!-- single item  end -->
+                    <!-- single item start -->
+                    <div class="col-lg-6">
+                        <div class="item">
+                            <div class="media">
+                                <span class="d-block">4</span>
+                                <div class="media-body">
+                                    <p>Participants liked the presentation
+                                        of the artists' information in
+                                    the app</p>
+                                </div>
+                            </div>
+                            <div class="inner-img">
+
+                                <span class="loader">
+                                    <img src="assests/images/4.png" alt="img" class="img-fluid">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single item  end -->
                 </div>
-                <!-- testing innner end -->
+            </div>
+            <!-- testing innner end -->
+        </div>
+    </div>
+    <!-- Testing end -->
+
+
+<!-- wrapper bg start -->
+<div class="wrapper-bg">
+    
+    <!-- Accessibility Considerations start -->
+    <div class="Accessibility">
+        <div class="container">
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-10">
+                    <h2 data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">Accessibility Considerations</h2>
+                    <div class="media">
+                        <span class="d-block">1</span>
+                        <div class="media-body">
+                            <p>The color palette was chosen in terms of the accessibility by  basing myself of the contrast checker of webaim.org. The  contrast ratio is 5.22:1.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <span class="d-block">2</span>
+                        <div class="media-body">
+                            <p>The buttons and icons (calls to action) are quite big and adapted  for bigger screens. </p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <span class="d-block">3</span>
+                        <div class="media-body">
+                            <p>The app can be available in multiple languages like English and French.</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <span class="d-block">4</span>
+                        <div class="media-body">
+                            <p>There is a hierarchical presentation of important to least important information, which makes the app easier to navigate.</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-        <!-- Testing end -->
+    </div>
+    <!-- Accessibility Considerations end -->
+
+
+    <!-- Takeaways start -->
+    <div class="Takeaways">
+        <div class="container">
+            <h2 data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="300">Takeaways</h2>
+            <!-- row start  -->
+            <div class="row g-0 justify-content-center">
+                <!-- single item start -->
+                <div class="col-lg-10">
+                    <!-- row start -->
+                    <div class="row">
+                        <!-- single item start -->
+                        <div class="col-lg-6">
+                            <div class="item">
+                                <h4>Impact</h4>
+                                <p>The feedback of my project has been 
+                                    largely positive: <br>
+                                    “Including the artist information and 
+                                    process is something interesting I have 
+                                    not seen in other websites or apps.”
+                                    “Having a 3D virtual visit of an app gallery 
+                                    is a cool immersive experience that intrigues 
+                                    me.”
+                                </p>
+                            </div>
+                        </div>
+                        <!-- single item end -->
+                        <!-- single item start -->
+                        <div class="col-lg-6">
+                            <div class="item">
+                                <h4>What I learned</h4>
+                                <p>A wonderful first project that taught 
+                                    me about other people’s perspective 
+                                    on ecommerce and buying high-ticket 
+                                    items (like original art). This product is 
+                                    not for everyone, but having diverse 
+                                    opinions certainly helped my project to 
+                                evolve in a better, more accessible direction.</p>
+                            </div>
+                        </div>
+                        <!-- single item end -->
+
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- single item end -->
+            </div>
+            <!-- row end  -->
+            <div class="takeaways-bottom">
+                <h3>You can find the prototype of the Art Gallery App <a href="">here</a>.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Takeaways end -->
+
+</div>
+<!-- wrapper bg end -->
 
 
 
 
 
 
-        <!--  jQuery js-->
-        <script src="assests/js/jquery.min.js"></script>
-        <!-- bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-        <!-- slick slider js cdn link -->
-        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <!-- fontawesome icon -->
-        <script src="assests/fontawesome/js/all.js"></script>
-        <!-- coustom js -->
-        <script src="assests/js/script.js"></script>
-        <script>
-    (function($){
-      'use strict';
-      $(window).on('load', function () {
-        if ($(".loader").length > 0)
-        {
-             $("span.loader").removeClass("loader");
-        }
-    });
-  })(jQuery)
+ <!-- You can find start -->
+        <div class="you-can-find ">
+            <div class="container">
+                <div class="common-heading">
+                    <h2>You can find the prototype of The Fashion Directory <a href="">here.</a></h2>
+                </div>
+                <p>Thank you for taking an interest in my work as a new UX designer.
+                    You can contact me here:
+                    <br> <br>
+                    <a href="mailto: v.gueorguieva@gmail.com">v.gueorguieva@gmail.com</a></p>
+                    <div class="row text-center mt-5 pt-5">
+                        <div class="col-lg-6 align-self-end">
+                            <span class="loader">
+                            <img src="assests/images/footer1.png" alt="img" class="img-fluid">
+                            </span>
+                        </div>
+                        <div class="col-lg-6 align-self-end">
+                            <span class="loader">
+                            <img src="assests/images/footer2.png" alt="img" class="img-fluid">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- You can find end -->
+            <!-- footer start -->
+            <footer>
+                <div class="container">
+                    <p>Design by Vesselina G & Code by Angel Jerry © 2022</p>
+                </div>
+            </footer>
+            <!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--  jQuery js-->
+    <script src="assests/js/jquery.min.js"></script>
+    <!-- bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- slick slider js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- aos animation js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- fontawesome icon -->
+    <script src="assests/fontawesome/js/all.js"></script>
+    <!-- coustom js -->
+    <script src="assests/js/script.js"></script>
+    <!-- pre loader start-->
+    <script>
+        (function($){
+            'use strict';
+            $(window).on('load', function () {
+                if ($(".loader").length > 0)
+                {
+                    $("span.loader").removeClass("loader");
+                }
+            });
+        })(jQuery)
+    </script>
+    <!-- pre loader end-->
+    <!-- aos animation active js -->
+    <script>
+  AOS.init();
 </script>
-    </body>
-    </html>
+</body>
+</html>
